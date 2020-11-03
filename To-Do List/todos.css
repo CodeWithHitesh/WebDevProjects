@@ -1,0 +1,65 @@
+body{
+	background: #005AA7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+h4{
+	font-weight: bold;
+	color: white;	
+}
+
+
+.fa{
+	color: white;
+}
+
+
+.completed{
+	text-decoration: line-through;
+	color: grey;
+}
+
+
+.justify-content-between{
+	background: #2980b9;
+}
+
+
+.btn-danger{
+	margin-right: 20px;
+}
+
+
+#hey
+{
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	font-family: 'Roboto', sans-serif;
+	margin-top: 150px;
+}
+
+
+#li{
+	padding-left: 0px;
+}
+
+
+#li:nth-child(odd){
+	background: #f7f7f7;
+}
+
+
+.card input{
+	background: #fffaf0;
+	font-weight: bold;
+}
+
+.card input:focus{
+	background: #fff;
+	border : 3px solid #2980b9;
+	outline: none;
+}
+
+
